@@ -38,4 +38,10 @@
     background-color: rgb(198, 197, 197);
 }
 
+fieldset{
+    background-color: gray;
+	border:1px solid #999;
+	box-shadow:0 0 10px #999
+}
+
 
