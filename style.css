@@ -41,7 +41,49 @@
 fieldset{
     background-color: gray;
 	border:1px solid #999;
-	box-shadow:0 0 10px #999
+	box-shadow:0 0 10px #999;
+    padding: 1vh 3vw;
 }
 
+.word{
+    max-width: 50vw;
+    font-size: 2vw;
+    padding: 3vh 3vw;
+}
 
+.top{
+    position: relative;
+    bottom: 4vh;
+}
+
+label,
+input,
+button
+{
+  font-size: 1.5vw;
+  display: block;
+
+}
+
+button{
+    background-color: azure;
+    border-radius: 2vw;
+    padding: 2vh 1vh;
+    margin: 3vw;
+    border: none;
+    box-shadow:0 0 10px #999;
+}
+
+.left{
+    float: left;
+
+}
+
+.right{
+    margin-left: 6vw;
+
+}
+
+.clear{
+    clear:both;
+}
