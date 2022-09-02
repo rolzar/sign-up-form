@@ -1,6 +1,19 @@
+*{
+    margin: 0;
+}
+
+
 .container{
     display: grid;
     grid-template-columns: 40vw 60vw;
     grid-template-rows: 100vh;
-    border:5px black;
 }
+
+.logo{
+    background: center / 100% no-repeat url(images/maximalfocus.jpeg)
+    /* background-size: 100vh; */
+
+}
+
+/* center / contain no-repeat url("../../media/examples/firefox-logo.svg"),
+            #eee 35% url("../../media/examples/lizard.png"); */
