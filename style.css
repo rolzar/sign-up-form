@@ -10,10 +10,28 @@
 }
 
 .logo{
-    background: center / 100% no-repeat url(images/maximalfocus.jpeg)
-    /* background-size: 100vh; */
+    height: 100vh;
+    background:100% / 100% url(images/maximalfocus.jpeg);
 
 }
 
-/* center / contain no-repeat url("../../media/examples/firefox-logo.svg"),
-            #eee 35% url("../../media/examples/lizard.png"); */
+.lgFix{
+    display: flex;
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0, 0, .9);
+    position: relative;
+    top: 20%;
+}
+
+.lgFix > img{
+    width: 20%;
+}
+
+.formside{
+    background-color: rgb(198, 197, 197);
+}
+
+
