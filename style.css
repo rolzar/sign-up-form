@@ -1,0 +1,6 @@
+.container{
+    display: grid;
+    grid-template-columns: 40vw 60vw;
+    grid-template-rows: 100vh;
+    border:5px black;
+}
