@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Sign-Up</title>
 </head>
 <body>
@@ -32,11 +33,11 @@
                     <h2>Let's Get Started</h2>
                     <div class="left">
                         <label for="first_name"> First Name</label>
-                        <input type="text" id="first_name" name="first_name" required>
+                        <input type="text" id="first_name" name="first_name" placeholder="Zoro" required>
                     </div>
                     <div class="left right">
                         <label for="last_name"> Last Name</label>
-                        <input type="text" id="last_name" name="last_name" required>
+                        <input type="text" id="last_name" name="last_name" placeholder="Roronoa" required>
                     </div>
                      <div class="clear">&nbsp;</div>
                     
@@ -46,7 +47,7 @@
                     </div>
                     <div class="left right">
                         <label for="phone">Phone Number</label>
-                        <input type="number" name="phone" id="phone" required>
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" required>
                     </div>
                     <div class="clear">&nbsp;</div>
                     <div class="left">

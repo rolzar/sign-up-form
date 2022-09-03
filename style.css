@@ -78,6 +78,13 @@ button
   border-radius: .3vw;
   border: none;
 
+
+}
+
+input{
+    color: black;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    padding: .5vh .5vw;
 }
 
 button{
