@@ -1,7 +1,7 @@
 *{
     margin: 0;
     color: #F6F9FE;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
 }
 
 /* Logo Side CSS */
@@ -39,6 +39,7 @@
 /* Form Side CSS */
 .formside{
     background-color: black;
+    font-family: sans-serif;
 }
 
 fieldset{
@@ -55,7 +56,7 @@ fieldset:hover{
 
 .word{
     max-width: 50vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 3vh 3vw;
 
 }
@@ -87,7 +88,8 @@ input{
 }
 
 input:focus{
-    border: 2px solid #26D1F6
+    border: 2px solid rgb(38, 209, 246);
+    box-shadow: 0 14px 28px  rgba(38, 209, 246,.25), 0 10px 10px rgba(38, 209, 246,.22);
 }
 
 button{
@@ -97,6 +99,7 @@ button{
     border: none;
     color: black;
     font-weight: bold;
+
 
 }
 button:hover{
@@ -126,4 +129,24 @@ button:focus{
 
 h1{
     padding-bottom: 2vh;
+}
+
+a{
+    color: #26D1F6;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover{
+    color: #F92B77;
+    
+}
+
+.old_user{
+    padding: 0vh 3vw;
+    position: relative;
+    bottom: 2.5vh;
+    
+
 }
