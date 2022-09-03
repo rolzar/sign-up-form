@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    color: #F6F9FE;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Logo Side CSS */
@@ -26,6 +28,7 @@
     
     position: relative;
     top: 20%;
+    right: .2vw;
 }
 
 .lgFix > img{
@@ -35,20 +38,27 @@
 
 /* Form Side CSS */
 .formside{
-    background-color: rgb(198, 197, 197);
+    background-color: black;
 }
 
 fieldset{
-    background-color: gray;
-	border:1px solid #999;
-	box-shadow:0 0 10px #999;
-    padding: 1vh 3vw;
+    background: radial-gradient(circle, rgba(49,82,123,1) 0%, rgba(64,87,129,1) 33%, rgba(57,89,130,1) 70%, rgba(67,76,115,1) 100%);
+    border: none;
+    padding: 1vh 0vw 1vh 3vw;
+    max-width: 55vw;
+}
+
+fieldset:hover{
+    /* box-shadow:0 14px 28px #434C73; */
+    box-shadow: 0px 0px 20px rgba(255, 255, 255,.50), 0px 0px 5px rgba(255, 255, 255,.45);
+
 }
 
 .word{
     max-width: 50vw;
     font-size: 2vw;
     padding: 3vh 3vw;
+
 }
 
 .top{
@@ -62,16 +72,25 @@ button
 {
   font-size: 1.5vw;
   display: block;
+  border-radius: .3vw;
+  border: none;
 
 }
 
 button{
-    background-color: azure;
-    border-radius: 2vw;
-    padding: 2vh 1vh;
+    background-color: #26D1F6;
+    padding: 2vh 3.5vh;
     margin: 3vw;
     border: none;
-    box-shadow:0 0 10px #999;
+    color: black;
+}
+button:hover{
+    box-shadow:0 0 0px .1vw #26D1F6;
+
+}
+button:focus{
+    box-shadow:0 0 0px .2vw #26D1F6;
+
 }
 
 .left{
